@@ -14,7 +14,7 @@ It uses text preprocessing, feature extraction, and classification algorithms to
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Python 3.8+**
 - **Pandas** – Data manipulation
 - **NumPy** – Numerical operations
@@ -24,7 +24,7 @@ It uses text preprocessing, feature extraction, and classification algorithms to
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Name:** [SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 - **Size:** ~5,572 SMS messages
 - **Labels:**  
@@ -33,7 +33,7 @@ It uses text preprocessing, feature extraction, and classification algorithms to
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 1. **Data Cleaning:** Remove stopwords, punctuation, special characters.
 2. **Text Vectorization:** Convert text to numerical format using **TF-IDF** or **Bag of Words**.
 3. **Model Training:** Train a **Naive Bayes** or **Logistic Regression** classifier.
@@ -42,7 +42,7 @@ It uses text preprocessing, feature extraction, and classification algorithms to
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 | Metric       | Score |
 |--------------|-------|
 | Accuracy     | 98%   |
@@ -52,7 +52,7 @@ It uses text preprocessing, feature extraction, and classification algorithms to
 
 ---
 
-## ▶️ Installation & Usage
+## Installation & Usage
 ```bash
 # Clone the repository
 git clone https://github.com/YourUsername/Spam-Shield-SMS-Sentinel.git
