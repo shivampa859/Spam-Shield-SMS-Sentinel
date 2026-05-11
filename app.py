@@ -39,8 +39,8 @@ def transform_text(text):
 
 
 # Load model and vectorizer
-tfidf = pickle.load(open('vectorizer (1).pkl', 'rb'))
-model = pickle.load(open('model (1).pkl', 'rb'))
+tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 # Streamlit UI
 st.title("Spam Shield SMS Sentinel")
